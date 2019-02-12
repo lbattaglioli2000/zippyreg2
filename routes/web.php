@@ -14,3 +14,7 @@
 Route::get('/', 'SiteController@index');
 Route::get('/contact', 'SiteController@contact');
 Route::get('/faq', 'SiteController@faq');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

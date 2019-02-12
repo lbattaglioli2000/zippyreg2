@@ -15,13 +15,15 @@
         </div>
         <div id='navbar' class='navbar-collapse collapse'>
             <ul class='nav navbar-nav'>
-                <li><a href='/zippy/register/'>Register</a></li>
+                <li><a href='/zippy/register/'>Register for an Event</a></li>
                 <li><a href='/zippy/teams/'>Teams</a></li>
                 <li><a href='/zippy/confirm-entry/'>Confirm</a></li>
                 <li><a href='/faq'>FAQ</a></li>
                 <li><a href='/contact'>Contact</a></li>
             </ul>
-            <ul class='nav navbar-nav navbar-right'><li><a href='https://www.ZippyReg.com/management/welcome.php'>Admin</a></li>
+            <ul class='nav navbar-nav navbar-right'><li><a href='{{ route('login') }}'>Admin Login</a></li>
+            </ul>
+            <ul class='nav navbar-nav navbar-right'><li><a href='{{ route('register') }}'>Admin Registration</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div><!--/.container-fluid -->
