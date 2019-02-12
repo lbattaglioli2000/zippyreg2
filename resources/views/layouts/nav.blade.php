@@ -1,30 +1,28 @@
-<nav id='toplevelnav' class='navbar navbar-default' style='z-index: 9;'>
-    <div class='container-fluid'>
-        <div class='navbar-header'>
-            <button type='button' class='navbar-toggle collapsed' data-toggle='collapse' data-target='#navbar' aria-expanded='false' aria-controls='navbar'>
-                <span class='sr-only'>Toggle navigation</span>
-                <span class='icon-bar'></span>
-                <span class='icon-bar'></span>
-                <span class='icon-bar'></span>
-            </button>
-            <a class='navbar-brand' href='/' style='font-weight: bold;'>
-
-                <span style='font-weight: bold; font-size: 1.5em; font-style: italic; display: inline;'>ZippyReg <i class="fab fa-draft2digital"></i></span>
-
-            </a>
+<nav class="navbar fixed-top navbar-expand-lg">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <h2 style="font-family: 'Faster One';">ZippyReg <i class="fab fa-draft2digital"></i></h2>
+        </a>
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <span class="ti-menu"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li><a class="nav-link active" href="#about">how it works</a></li>
+                <li><a class="nav-link" href="#features">features</a></li>
+                <li><a class="nav-link" href="#plans">plans</a></li>
+                <li><a class="nav-link" href="#team">our team</a></li>
+                <li><a class="nav-link" href="#faq">faq</a></li>
+            </ul>
+            <button class="btn btn-primary btn-sm">JOIN NOW</button>
         </div>
-        <div id='navbar' class='navbar-collapse collapse'>
-            <ul class='nav navbar-nav'>
-                <li><a href='/zippy/register/'>Register for an Event</a></li>
-                <li><a href='/zippy/teams/'>Teams</a></li>
-                <li><a href='/zippy/confirm-entry/'>Confirm</a></li>
-                <li><a href='/faq'>FAQ</a></li>
-                <li><a href='/contact'>Contact</a></li>
-            </ul>
-            <ul class='nav navbar-nav navbar-right'><li><a href='{{ route('login') }}'>Admin Login</a></li>
-            </ul>
-            <ul class='nav navbar-nav navbar-right'><li><a href='{{ route('register') }}'>Admin Registration</a></li>
-            </ul>
-        </div><!--/.nav-collapse -->
-    </div><!--/.container-fluid -->
+    </div>
 </nav>

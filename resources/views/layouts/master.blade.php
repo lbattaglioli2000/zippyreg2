@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Landingo</title>
+    <title>ZippyReg 2</title>
     <meta name="description" content="" />
     <meta content="" name="description" />
     <meta content="width=device-width, initial-scale=1" name="viewport" />
@@ -14,57 +14,27 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="apple-touch-icon" href="icon.png" />
     <link rel="stylesheet" href="/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Faster+One" rel="stylesheet">
 </head>
 
 <body>
 <main class="main">
-    <nav class="navbar fixed-top navbar-expand-lg">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="img/logo.png" alt="logo" />
-            </a>
-            <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-            >
-                <span class="ti-menu"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li><a class="nav-link active" href="#about">how it works</a></li>
-                    <li><a class="nav-link" href="#features">features</a></li>
-                    <li><a class="nav-link" href="#plans">plans</a></li>
-                    <li><a class="nav-link" href="#team">our team</a></li>
-                    <li><a class="nav-link" href="#faq">faq</a></li>
-                </ul>
-                <button class="btn btn-primary btn-sm">JOIN NOW</button>
-            </div>
-        </div>
-    </nav>
+    @include('layouts.nav')
 
     <section class="home__hero">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-md-7  home__hero-image-section">
-                    <img
-                            class="home__hero-img wow fadeInLeft"
-                            src="img/iPhoneXs.png"
-                            width="400"
-                    />
+
                     <img
                             class="home__hero-bg wow fadeInRight"
-                            src="img/bg.png"
+                            src="/img/bg.png"
                             width="800"
                     />
                 </div>
                 <div
                         class="col-12 col-md-5  home__hero-text-section  align-self-end wow fadeInUp"
-                        data-wow-delay="0.2s"
+                        data-wow-delay="1.5s"
                 >
                     <h1>registration in a zip.</h1>
                     <p class="mt-4 mb-4">
@@ -74,7 +44,7 @@
                         grew to provide registration services for the contracted
                         events across the country
                     </p>
-                    <button class="btn btn-secondary btn-lg">Learn more</button>
+                    <button class="btn btn-secondary btn-lg">Register</button>
                 </div>
             </div>
         </div>
@@ -92,12 +62,11 @@
                             class="how-it-works__item-bg d-flex flex-column align-items-center text-center"
                     >
                         <span class="how-it-works__item-number">1</span>
-                        <i class="ti-gallery"></i>
-                        <h4 class="mt-4 mb-4">Dream up a dare challenge</h4>
+                        <i class="fas fa-sign-in-alt"></i>
+                        <h4 class="mt-4 mb-4">Sign up with ZippyReg.</h4>
 
                         <p>
-                            Open the Experty profile of the selected Expert and click the
-                            "contact me" button
+                            To start creating events, register for an event manager account on ZippyReg</a>
                         </p>
                     </div>
                 </div>
@@ -111,11 +80,10 @@
                             class="how-it-works__item-bg d-flex flex-column align-items-center text-center"
                     >
                         <span class="how-it-works__item-number">2</span>
-                        <i class="ti-video-clapper"> </i>
-                        <h4 class="mt-4 mb-4">Register or issue a dare</h4>
+                        <i class="fas fa-calendar-plus"></i>
+                        <h4 class="mt-4 mb-4">Create an event.</h4>
                         <p>
-                            Open the Experty profile of the selected Expert and click the
-                            "contact me" button
+                            As a coordinator, you can see your events, create new events, and do much more!
                         </p>
                     </div>
                 </div>
@@ -130,12 +98,11 @@
                             class="how-it-works__item-bg d-flex flex-column align-items-center text-center"
                     >
                         <span class="how-it-works__item-number">3</span>
-                        <i class="ti-layout-accordion-list"> </i>
-                        <h4 class="mt-4 mb-4">Create your own page</h4>
+                        <i class="fas fa-toggle-on"></i>
+                        <h4 class="mt-4 mb-4">Enable registation.</h4>
 
                         <p>
-                            Open the Experty profile of the selected Expert and click the
-                            "contact me" button
+                            Simply turn on registration, and people will be able to register for your event.
                         </p>
                     </div>
                 </div>
@@ -148,12 +115,11 @@
                             class="how-it-works__item-bg d-flex flex-column align-items-center text-center"
                     >
                         <span class="how-it-works__item-number">4</span>
-                        <i class="ti-bell"> </i>
-                        <h4 class="mt-4 mb-4">Fundraise and inspire!</h4>
+                        <i class="fas fa-chart-line"></i>
+                        <h4 class="mt-4 mb-4">View data and insights.</h4>
 
                         <p>
-                            Open the Experty profile of the selected Expert and click the
-                            "contact me" button
+                            You can use your dashboard to view all sorts data about your event.
                         </p>
                     </div>
                 </div>
@@ -173,31 +139,31 @@
                 <div
                         class=" wow fadeInRight col-lg-4 col-md-8 col-sm-12 d-flex flex-column align-self-center"
                 >
-                    <span class="info-text">libero eu tempus</span>
-                    <h3 class="mt-4 mb-4">Dream up <br />a dare challenge</h3>
+                    <span class="info-text">You plan the event.</span>
+                    <h3 class="mt-4 mb-4">Let us handle<br> the registration.</h3>
                     <p>
-                        Donec justo leo, efficitur sit amet pulvinar nec, sodales
-                        hendrerit diam. Aenean vel rhoncus neque. Nam vel mauris massa.
-                        Nullam ut augue eget felis aliquam porta. Praesent sit amet
-                        dignissim quam, non venenatis arcu. Pellentesque vehicula id
-                        libero eu tempus. Sed et vestibulum magna. Phasellus semper
-                        egestas nunc non scelerisque. Vivamus viverra pharetra orci tempor
-                        aliquet.
+                        We want you to plan the best possible event you can. We don't think
+                        you should be stressing over event registration. You do your thing,
+                        let us take care of the rest.
                     </p>
+                    <p>Here's a peek at what we offer!</p>
                     <ul class="features__item-list">
-                        <li>
-                            <i class="ti-link"> </i>
-                            <h4>Awesome feature</h4>
-                        </li>
-                        <li>
-                            <i class="ti-ruler-pencil"> </i>
 
-                            <h4>Awesome feature</h4>
-                        </li>
                         <li>
-                            <i class="ti-blackboard"></i>
-                            <h4>Awesome feature</h4>
+                            <i class="fas fa-arrow-circle-right"></i>
+                            <h4>Seamless event creation and management.</h4>
                         </li>
+
+                        <li>
+                            <i class="fas fa-arrow-circle-right"></i>
+                            <h4>Best in class customer support.</h4>
+                        </li>
+
+                        <li>
+                            <i class="fas fa-arrow-circle-right"></i>
+                            <h4>PCI compliant payment processing.</h4>
+                        </li>
+                        
                     </ul>
                 </div>
             </div>
