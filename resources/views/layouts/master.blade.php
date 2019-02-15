@@ -36,7 +36,7 @@
                         class="col-12 col-md-5  home__hero-text-section  align-self-end wow fadeInUp"
                         data-wow-delay="1.5s"
                 >
-                    <h1>registration in a zip.</h1>
+                    <h1>Registration in a zip.</h1>
                     <p class="mt-4 mb-4">
                         ZippyReg is a comprehensive online registration platform.
                         Our roots go back over 15 years to 2003, when we launched
@@ -44,7 +44,7 @@
                         grew to provide registration services for the contracted
                         events across the country
                     </p>
-                    <button class="btn btn-secondary btn-lg">Register</button>
+                    <a href="#about" class="btn btn-secondary btn-lg">See how easy it is to get started.</a>
                 </div>
             </div>
         </div>
@@ -163,7 +163,7 @@
                             <i class="fas fa-arrow-circle-right"></i>
                             <h4>PCI compliant payment processing.</h4>
                         </li>
-                        
+
                     </ul>
                 </div>
             </div>
@@ -174,23 +174,21 @@
             <div class="row">
                 <div class="col-md-12 ">
                     <div class="jumbotron">
-                        <i class="ti-video-camera wow fadeInDown"></i>
+                        <i class="fas fa-running wow fadeInDown"></i>
                         <h1 class="mb-5 wow fadeInUp" data-wow-delay="0.3s">
-                            Dream up <br />
-                            a dare challenge
+                            Quick, painless, event<br />
+                            registration.
                         </h1>
                         <p class="lead mb-5 wow fadeInDown" data-wow-delay="0.5s">
-                            This is a simple hero unit, <br />a simple jumbotron-style
-                            component <br />
-                            for calling extra attention.
+                            With ZippyReg.
                         </p>
 
                         <p class="lead">
                             <a
                                     class="btn btn-primary btn-lg wow fadeInUp"
-                                    href="#"
+                                    href="#plans"
                                     role="button"
-                            >Learn more</a
+                            >View our Plans</a
                             >
                         </p>
                     </div>
@@ -203,21 +201,19 @@
             <div class="row">
                 <div class="col-md-12 mb-5  wow fadeIn" data-wow-delay="0.3s">
                     <h2 class="text-center">Our plans</h2>
-                    <p class="text-center info-text">Lorem ipsum dolor sit amet</p>
+                    <p class="text-center info-text">We have different plans for organizations of all sizes.</p>
                 </div>
 
                 <div class="col-md-6 col-lg-3 wow fadeInLeft">
                     <div class="pricing-box shadow text-center mb-3">
                         <span class="icon ti-announcement"></span>
-                        <h3>starter</h3>
+                        <h3>free</h3>
                         <span class="pricing-box-price">
-                $9.00 <span class="pricing-box-price-small">per month</span>
+                $0.00 <span class="pricing-box-price-small">per month</span>
               </span>
                         <ul>
-                            <li>Personal use</li>
-                            <li>Unlimited projects</li>
-                            <li>24/7 support</li>
-                            <li>3 email address</li>
+                            <li>3 <em>free</em> events</li>
+                            <li>Excellent support</li>
                             <li>free hosting</li>
                         </ul>
                         <a href="#" class="btn btn-margin btn-default"
