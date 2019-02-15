@@ -12,7 +12,7 @@
                 aria-expanded="false"
                 aria-label="Toggle navigation"
         >
-            <span class="ti-menu"></span>
+            <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
